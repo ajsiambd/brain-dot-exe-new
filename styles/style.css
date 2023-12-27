@@ -1,0 +1,100 @@
+/* Common */
+
+.btn-primary{
+    padding: 10px;
+    border: 0;
+    background-color: crimson;
+    color: white;
+    border-radius: 50px;
+    margin-left: 10px;
+}
+
+/* Header Styles */
+*{
+    font-family: sans-serif;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+}
+ul{
+    display: flex;
+}
+li a{
+    text-decoration: none;
+    color: red;
+}
+/* Banner Styles */
+.banner{
+    margin: 100px;
+    text-align: center;
+}
+.banner h2{
+    font-size: 50px;
+    color: red;
+}
+.banner h4{
+    font-size: 20px;
+    color: rgb(255, 83, 83);
+}
+.cmn-btn{
+    padding: 10px;
+    border: 0;
+    margin:20px ;
+    background: crimson;
+    color: white;  
+    border-radius: 50px;
+}
+.icons{
+    display: flex;
+    align-items: center;
+    margin-left: 550px;
+}
+.icons img{
+    margin-top: 20px;
+    margin-bottom:50px;
+    width: 20px;
+    padding: 10px;
+}
+footer{
+    background-color: black;
+    color: white;
+    padding-top: 30px;
+    text-align: center;
+}
+.email{
+    margin-top: 50px;
+}
+.course-thumbnail{
+    padding: 20px;
+    width: 500px;
+    height: 300px;
+}
+.course-info{
+    margin-left: 20px;
+    padding: 20px 0 20px 0;
+}
+.courses{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+.course{
+    border:0;
+    border-radius: 20px;
+    background-color: aqua;
+    margin: 20px;
+    padding: 10px;
+}
+.about{
+    text-align: center;
+    padding: 20px;
+    align-items: center;
+}
